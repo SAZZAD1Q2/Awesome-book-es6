@@ -56,6 +56,10 @@
     <div class="footer-section">
       <h4>Copyright -- --</h4>
     </div>
-    <script src="script.js"></script>
+    <script type="module" src="main.js">
+      import { MyBookList } from './my-book-list.js';
+
+      const myBookList = new MyBookList();
+    </script>
   </body>
 </html>
