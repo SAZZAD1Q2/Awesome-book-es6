@@ -15,8 +15,6 @@ list.addEventListener('click', () => {
   bookSection.style.display = 'block';
   formContainer.style.display = 'none';
   contactSection.style.display = 'none';
-  alert('hi vi');
-  console.log('hi viiikdsa')
 });
 
 addNew.addEventListener('click', () => {
