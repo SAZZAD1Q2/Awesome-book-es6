@@ -1,11 +1,6 @@
-export class Book {
-    constructor(title, author) {
-      this.title = title;
-      this.author = author;
-    }
-  }
+import Book from "./book.js";
   
-  export class MyBookList {
+ class MyBookList {
     constructor() {
       this.books = JSON.parse(localStorage.getItem('books')) || [];
       this.MyBookList = document.getElementById('my-book-list');
@@ -74,5 +69,5 @@ export class Book {
     }
   }
   
-//   export default MyBookList;
+  export default MyBookList;
   
